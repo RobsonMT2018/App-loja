@@ -115,9 +115,7 @@ npm install recharts
 ## Capturas de tela
 
 * **Estrutura do Projeto**
-<img width="1087" height="1088" alt="Login" src="https://drive.google.com/file/d/1abo80W_46xXc6G4jHnCdTxEYUY6WRb1i/view?usp=drive_link" />
-
-
+<img width="1087" height="1088" alt="Estrutura" src="https://drive.google.com/file/d/1abo80W_46xXc6G4jHnCdTxEYUY6WRb1i/view?usp=drive_link" />
 
 * **Login**
 <img width="1087" height="1088" alt="Login" src="https://github.com/user-attachments/assets/3e954bff-6193-48f4-8388-c44fb2d7fd95" />
