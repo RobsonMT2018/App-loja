@@ -33,6 +33,8 @@ Aplicativo para gerenciar a loja de copos personalizados, com área de administr
 
 ## Estrutura do projeto
 
+<img width="1447" height="797" alt="image" align = "center" src="https://github.com/user-attachments/assets/f2fc0415-a4b4-4e00-b8fe-7096928d3aff" />
+
 ```
 App-loja/
 ├── backend/
@@ -114,23 +116,21 @@ npm install recharts
 
 ## Capturas de tela
 
-* **Estrutura do Projeto**
-<img width="1447" height="797" alt="image" src="https://github.com/user-attachments/assets/f2fc0415-a4b4-4e00-b8fe-7096928d3aff" />
 
 * **Login**
-<img width="585" height="745" alt="image" src="https://github.com/user-attachments/assets/bfefd636-d54c-416a-a07b-becf09bff72a" />
+<img width="585" height="745" alt="image" align = "center"  src="https://github.com/user-attachments/assets/bfefd636-d54c-416a-a07b-becf09bff72a" />
 
 * **Dashboard do Administrador**
-<img width="1313" height="1403" alt="image" src="https://github.com/user-attachments/assets/e9e7ccee-7a0d-412a-86f1-ce6bd6d63534" />
+<img width="1313" height="1403" alt="image" align = "center"  src="https://github.com/user-attachments/assets/e9e7ccee-7a0d-412a-86f1-ce6bd6d63534" />
 
 * **Lista de produtos**
-<img width="1289" height="1435" alt="image" src="https://github.com/user-attachments/assets/d60b0886-af77-485e-9dcf-a58e913489c6" />
+<img width="1289" height="1435" alt="image" align = "center" src="https://github.com/user-attachments/assets/d60b0886-af77-485e-9dcf-a58e913489c6" />
 
 * **Cadastrar Produtos**
-<img width="1277" height="1435" alt="image" src="https://github.com/user-attachments/assets/0af6284a-ff9c-4e95-9e81-736fcfc764a9" />
+<img width="1277" height="1435" alt="image" align = "center" src="https://github.com/user-attachments/assets/0af6284a-ff9c-4e95-9e81-736fcfc764a9" />
 
 * **Editar Produtos**
-<img width="1281" height="1431" alt="image" src="https://github.com/user-attachments/assets/deb5b53b-d2a4-4a2d-bd99-ccd843ea4f41" />
+<img width="1281" height="1431" alt="image" align = "center" src="https://github.com/user-attachments/assets/deb5b53b-d2a4-4a2d-bd99-ccd843ea4f41" />
 
 
 
