@@ -120,8 +120,6 @@ npm install recharts
 * **Login**
 <img width="585" height="745" alt="image" src="https://github.com/user-attachments/assets/bfefd636-d54c-416a-a07b-becf09bff72a" />
 
-" />
-
 * **Dashboard do Administrador**
 <img width="1291" height="1439" alt="Dashboard" src="https://github.com/user-attachments/assets/c4c9d9f9-a483-49bb-b8b2-b30b32a37d63" />
 
