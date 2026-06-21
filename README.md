@@ -33,7 +33,9 @@ Aplicativo para gerenciar a loja de copos personalizados, com área de administr
 
 ## Estrutura do projeto
 
+* **Projeto**
 <img width="1447" height="797" alt="image" align = "center" src="https://github.com/user-attachments/assets/f2fc0415-a4b4-4e00-b8fe-7096928d3aff" />
+
 
 ```
 App-loja/
