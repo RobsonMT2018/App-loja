@@ -115,13 +115,13 @@ npm install recharts
 ## Capturas de tela
 
 * **Estrutura do Projeto**
-<img width="1087" height="1088" alt="Estrutura" src="https://drive.google.com/file/d/1abo80W_46xXc6G4jHnCdTxEYUY6WRb1i/view?usp=drive_link" />
+<img width="1447" height="797" alt="image" src="https://github.com/user-attachments/assets/f2fc0415-a4b4-4e00-b8fe-7096928d3aff" />
 
 * **Login**
 <img width="585" height="745" alt="image" src="https://github.com/user-attachments/assets/bfefd636-d54c-416a-a07b-becf09bff72a" />
 
 * **Dashboard do Administrador**
-<img width="1291" height="1439" alt="Dashboard" src="https://github.com/user-attachments/assets/c4c9d9f9-a483-49bb-b8b2-b30b32a37d63" />
+<img width="1313" height="1403" alt="image" src="https://github.com/user-attachments/assets/e9e7ccee-7a0d-412a-86f1-ce6bd6d63534" />
 
 * **Cadastrar Produtos**
 <img width="1291" height="1237" alt="Cadastrar Produtos" src="https://github.com/user-attachments/assets/cd8f304d-f13c-4d36-ac26-45813f25599f" />
