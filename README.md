@@ -21,6 +21,10 @@ Aplicativo para gerenciar a loja de copos personalizados, com área de administr
 * Node.js + Express: servidor/backend.
 * Json Server (ou banco de dados similar): armazenamento dos produtos.
 
+* Front-end: React, Vite, CSS.
+* Back-end: Node.js, Express.
+* Infraestrutura: Firebase (para autenticação/serviços).
+
 ## Pré-requisitos
 
 * Node.js instalado.
@@ -30,26 +34,26 @@ Aplicativo para gerenciar a loja de copos personalizados, com área de administr
 ## Estrutura do projeto
 
 ```
-app-loja/
+App-loja/
 ├── backend/
-│   ├── db.json
+│   ├── dados/             # Arquivos de banco de dados
+│   ├── node_modules/
+│   ├── limparBanco.js     # Script de limpeza
+│   ├── padronizar_db.js   # Script de padronização
 │   ├── package.json
-│   ├── server.js
-│   └── routes/
-│       └── produtos.js
+│   └── server.js          # Servidor principal
 ├── front-end/
 │   ├── public/
-│   │   └── index.html
 │   ├── src/
-│   │   ├── assets/
 │   │   ├── components/
-│   │   ├── pages/
+│   │   │   └── loja/      # Componentes (AddProdutoDB, Vendas, etc.)
 │   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── styles.css
+│   │   ├── firebase.js    # Configuração Firebase
+│   │   └── main.jsx
+│   ├── .env               # Variáveis de ambiente
 │   ├── package.json
 │   └── vite.config.js
-└── README.md
+└── Sistema/               # Módulo do sistema
 ```
 
 ## Passo a passo
@@ -90,6 +94,13 @@ npm install -g json-server
 json-server --watch db.json --port 3001
 ```
 
+7. Biblioteca de Gráficos:
+
+```bash
+npm install recharts
+```
+
+
 ## Observações
 
 * Dependências adicionais que podem ser usadas:
@@ -118,7 +129,21 @@ json-server --watch db.json --port 3001
 
 
 
+## Funcionalidades
 
+* **Área Administrativa**: Login seguro, Dashboard de produtos, CRUD completo (Criar, Ler, Editar, Remover).
+* **Área do Cliente**: Vitrine de produtos com visualização detalhada e navegação livre.
+
+***
+
+### O que eu corrigi/melhorei:
+
+1.  **Estrutura de Pastas**: Atualizei o diagrama para refletir a sua estrutura real (`backend/dados/`, `src/components/loja/`, etc.), removendo pastas genéricas que não existem no seu projeto.
+2.  **Tecnologias**: Adicionei o **Firebase**, que está presente na sua estrutura, e removi a menção ao `json-server` (já que você está usando uma estrutura de `backend/dados/` personalizada).
+3.  **Comandos**: Ajustei os comandos para condizer com os arquivos que você tem (`server.js`).
+4.  **Limpeza**: Removi seções de dependências que não são estritamente necessárias agora, mantendo o arquivo focado no que seu projeto realmente utiliza.
+
+Você pode copiar este conteúdo, substituir no seu `README.md` e realizar os *commits*!
 
 
 
