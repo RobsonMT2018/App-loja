@@ -123,11 +123,15 @@ npm install recharts
 * **Dashboard do Administrador**
 <img width="1313" height="1403" alt="image" src="https://github.com/user-attachments/assets/e9e7ccee-7a0d-412a-86f1-ce6bd6d63534" />
 
+* **Lista de produtos**
+<img width="1289" height="1435" alt="image" src="https://github.com/user-attachments/assets/d60b0886-af77-485e-9dcf-a58e913489c6" />
+
 * **Cadastrar Produtos**
-<img width="1291" height="1237" alt="Cadastrar Produtos" src="https://github.com/user-attachments/assets/cd8f304d-f13c-4d36-ac26-45813f25599f" />
+<img width="1277" height="1435" alt="image" src="https://github.com/user-attachments/assets/0af6284a-ff9c-4e95-9e81-736fcfc764a9" />
 
 * **Editar Produtos**
-<img width="1281" height="1439" alt="Editar Produtos" src="https://github.com/user-attachments/assets/c8b1051a-dbd8-440f-bd21-a76e4ee3e460" />
+<img width="1281" height="1431" alt="image" src="https://github.com/user-attachments/assets/deb5b53b-d2a4-4a2d-bd99-ccd843ea4f41" />
+
 
 
 
