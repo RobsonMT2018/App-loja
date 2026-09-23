@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
+import { API_URL } from '../constants/api';
 
 export default function Index() {
   const [email, setEmail] = useState('');
@@ -11,7 +12,7 @@ export default function Index() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('http://192.168.0.163:3000/login', {
+      const response = await fetch(`${API_URL}/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

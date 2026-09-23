@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
+import { API_URL } from '../constants/api';
 
 interface Produto {
   id: string | number;
@@ -34,9 +35,9 @@ interface Stats {
   valorPrejuizo: number;
 }
 
-const API_PEDIDOS = 'http://192.168.0.163:3000/pedidos';
-const API_CLIENTES = 'http://192.168.0.163:3000/clientes';
-const API_ESTOQUE = 'http://192.168.0.163:3000/estoque';
+const API_PEDIDOS = `${API_URL}/pedidos`;
+const API_CLIENTES = `${API_URL}/clientes`;
+const API_ESTOQUE = `${API_URL}/estoque`;
 
 function MetricCard({ label, value, accent }: { label: string; value: string; accent: string }) {
   return (
