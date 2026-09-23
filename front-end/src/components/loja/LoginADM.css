@@ -1,0 +1,135 @@
+/* Container principal */
+.login-adm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Caixa de login */
+.login-adm-box {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 450px;
+}
+
+.login-adm-box h2 {
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.login-adm-box p {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Mensagem de erro */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #f5c6cb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Grupo de formulário */
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+}
+
+.form-group input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+/* Botões */
+.form-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.form-buttons button {
+  flex: 1;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #218838;
+  box-shadow: 0 6px 12px rgba(40, 167, 69, 0.4);
+  transform: translateY(-2px);
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
+
+.cancel-button:hover:not(:disabled) {
+  background-color: #c82333;
+  box-shadow: 0 6px 12px rgba(220, 53, 69, 0.4);
+  transform: translateY(-2px);
+}
+
+.cancel-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

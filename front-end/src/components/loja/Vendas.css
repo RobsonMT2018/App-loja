@@ -1,0 +1,342 @@
+:root {
+  --primary-color: #e11d48; /* Vermelho vibrante estilo hamburgueria */
+  --primary-hover: #be123c;
+  --bg-color: #fff1f2;       /* Fundo avermelhado bem suave */
+  --card-bg: #ffffff;
+  --text-main: #1f2937;
+  --border-color: #fecdd3;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  margin: 0;
+}
+
+.pdv-container {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "sidebar main checkout";
+  grid-template-columns: 240px 1fr 350px;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  padding: 20px;
+  height: 98vh;
+  box-sizing: border-box;
+}
+
+/* Header estilizado colocando título, botão voltar e seletor na mesma linha */
+.header-vendas {
+  grid-area: header;
+  background: var(--card-bg);
+  padding: 15px 25px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px -1px rgba(225, 29, 72, 0.05);
+}
+
+.header-title { 
+  margin: 0; 
+  font-size: 1.6rem; 
+  color: #9f1239;
+  font-weight: 800;
+}
+
+.btn-voltar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff1f2; /* Fundo bem suave */
+  border: 1px solid #fecdd3; /* Borda levemente avermelhada */
+  padding: 10px 14px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--primary-color); /* Texto usa o vermelho do tema */
+  transition: all 0.2s;
+}
+
+.btn-voltar:hover {
+  background-color: var(--primary-color); /* Fundo vermelho no hover */
+  color: white; /* Texto branco no hover */
+}
+
+.container-cliente {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-cliente label {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.container-cliente select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #fff;
+  font-weight: 500;
+  outline: none;
+}
+
+.container-cliente select:focus {
+  border-color: var(--primary-color);
+}
+
+.menu-vertical {
+  grid-area: sidebar;
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.menu-vertical h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+
+.menu-vertical button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  background: #fff1f2;
+  color: #9f1239;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.menu-vertical button:hover {
+  background: #ffe4e6;
+}
+
+.menu-vertical button.ativo {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Container da busca */
+.area-busca-produtos {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-busca {
+  width: 90%;
+  padding: 15px 25px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-busca:focus {
+  border-color: #a51c30; /* Mantendo a cor temática da sua lanchonete */
+  outline: none;
+}
+
+/* Container do topo do resumo (onde fica o botão Limpar Carrinho) */
+.header-checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.btn-limpar-carrinho {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-limpar-carrinho:hover {
+  background: #fecaca;
+}
+
+.area-produtos {
+  grid-area: main;
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow-y: auto;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card-produto {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  padding: 16px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-produto:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 8px 16px -4px rgba(225, 29, 72, 0.15);
+  transform: translateY(-2px);
+}
+
+.card-produto h4 { 
+  margin: 10px 0 5px 0; 
+  font-size: 1.1rem; 
+  color: #1f2937;
+}
+
+.card-produto p {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin: 0;
+}
+
+.card-produto img {
+  width: 120px; 
+  height: 120px; 
+  object-fit: cover; 
+  border-radius: 15px; 
+  margin-bottom: 5px;
+}
+.card-produto.produto-esgotado {
+  background-color: #f9fafb;
+  border-color: #e5e7eb;
+}
+
+.card-produto.produto-esgotado:hover {
+  transform: none;
+  box-shadow: none;
+}
+.checkout {
+  grid-area: checkout;
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout h3 {
+  margin-top: 0;
+  color: #9f1239;
+}
+
+.resumo-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  overflow-y: auto;
+  max-height: calc(100vh - 280px);
+}
+
+.item-carrinho {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  border-radius: 8px;
+}
+
+.controles-qtd {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-qtd {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  font-size: 0.8rem;
+  background-color: #cbd5e1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-qtd:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-qtd.remover {
+  background-color: #fca5a5;
+  color: #991b1b;
+}
+
+.btn-qtd.remover:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
+.rodape-checkout {
+  border-top: 2px solid var(--bg-color);
+  padding-top: 15px;
+  margin-top: auto;
+}
+
+.total-valor {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.btn-finalizar {
+  width: 100%;
+  padding: 15px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.btn-finalizar:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+
+.btn-finalizar:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}

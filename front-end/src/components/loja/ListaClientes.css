@@ -1,0 +1,383 @@
+/* ==========================================================================
+   CONFIGURAÇÕES GERAIS DA ÁREA DE CLIENTES
+   ========================================================================== */
+.clientes-container {
+  padding: 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc; /* Fundo limpo idêntico ao Dashboard */
+  min-height: 100vh;
+  color: #334155;
+}
+
+/* Header de Ações Principais */
+.clientes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+  gap: 16px;
+}
+
+.clientes-header h2 {
+  font-size: 24px;
+  color: #0f172a;
+  font-weight: 700;
+  margin: 0;
+  flex-grow: 1;
+  letter-spacing: -0.5px;
+}
+
+/* ==========================================================================
+   BOTÕES DE CONTROLE
+   ========================================================================== */
+.btn-voltar-painel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-voltar-painel:hover {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+
+.btn-atualizar-lista {
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-atualizar-lista:hover {
+  background-color: #eff6ff;
+  border-color: #bfdbfe;
+  transform: rotate(30deg); /* Efeito dinâmico discreto no ícone de refresh */
+}
+
+/* ==========================================================================
+   ESTADOS DE LOADING, ERRO E TABELA VAZIA
+   ========================================================================== */
+.cliente-loading {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #64748b;
+  padding: 60px 0;
+}
+
+.cliente-erro-alert {
+  background-color: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fee2e2;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.cliente-vazio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  color: #64748b;
+  text-align: center;
+}
+
+.cliente-vazio p {
+  margin: 16px 0 24px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-ir-cadastro {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14.5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-ir-cadastro:hover {
+  background-color: #1d4ed8;
+}
+
+/* ==========================================================================
+   TABELA GERENCIAL DE CLIENTES
+   ========================================================================== */
+.cliente-table-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.02);
+}
+
+.clientes-tabela-real {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14.5px;
+}
+
+.clientes-tabela-real th {
+  background-color: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+  padding: 14px 20px;
+  border-bottom: 2px solid #e2e8f0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Alinhamento dos ícones dentro dos th */
+.clientes-tabela-real th svg {
+  display: inline-block;
+  vertical-align: -2px;
+  margin-right: 4px;
+  color: #94a3b8;
+}
+
+.clientes-tabela-real td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  vertical-align: middle;
+}
+
+.clientes-tabela-real tr:last-child td {
+  border-bottom: none;
+}
+
+.clientes-tabela-real tr:hover td {
+  background-color: #f8fafc; /* Efeito de destaque ao passar o rato */
+}
+
+.cliente-nome-destaque {
+  font-weight: 600;
+  color: #0f172a !important;
+}
+
+.dado-nulo {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 13.5px;
+}
+
+.btn-tabela-editar {
+  background-color: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #dbeafe;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-tabela-editar:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+/* ==========================================================================
+   MODAL DE EDIÇÃO PREMIUM (POP-UP CENTRALIZADO)
+   ========================================================================== */
+.cliente-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(15, 23, 42, 0.4); /* Fundo escurecido semi-transparente */
+  backdrop-filter: blur(4px); /* Desfoque de alta fidelidade no fundo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.cliente-modal-container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 460px;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cliente-modal-container h3 {
+  margin: 0 0 24px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.3px;
+}
+
+.form-group-cliente {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.form-group-cliente label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.form-group-cliente input {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14.5px;
+  color: #0f172a;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.form-group-cliente input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+/* Área de botões dentro do Modal */
+.modal-actions-cliente {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.btn-salvar-cliente {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-salvar-cliente:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-cancelar-cliente {
+  background-color: #ffffff;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-cancelar-cliente:hover {
+  background-color: #f8fafc;
+  color: #334155;
+  border-color: #cbd5e1;
+}
+
+/* ==========================================================================
+   ANIMAÇÕES DE INTERFACE (UX ENHANCEMENT)
+   ========================================================================== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Responsive Breakdown para ecrãs pequenos */
+@media (max-width: 640px) {
+  .clientes-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .clientes-header h2 {
+    text-align: center;
+    order: -1;
+  }
+  
+  .cliente-modal-container {
+    margin: 16px;
+    padding: 20px;
+  }
+}
+
+.header-clientes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn-novo-cliente {
+  background-color: #2563eb; /* Azul profissional */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-novo-cliente:hover {
+  background-color: #1d4ed8;
+}

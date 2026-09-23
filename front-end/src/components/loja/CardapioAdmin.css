@@ -1,0 +1,328 @@
+/* CardapioAdmin.css */
+.btn-voltar {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-voltar:hover {
+  background-color: #d0d0d0;
+}
+.cardapio-admin-page {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.cardapio-header {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.cardapio-header h2 {
+  font-size: 26px;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+
+.cardapio-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Tela de Login */
+.login-adm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.login-card p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.login-card input:focus {
+  border-color: #007bff;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Lista de Cards de Lanches */
+.lista-cardapio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lanche-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  border: 1px solid #eaeaea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.lanche-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.lanche-info-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+.lanche-thumbnail {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #f1f1f1;
+}
+
+.lanche-detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lanche-titulo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lanche-id-tag {
+  background: #e9ecef;
+  color: #495057;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.lanche-card h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #212529;
+}
+
+.lanche-preco {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 14px;
+  background: #e6f4ea;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.lanche-ingredientes-texto {
+  margin: 0;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Botão Editar */
+.btn-editar {
+  background-color: #f1f3f5;
+  color: #343a40;
+  border: 1px solid #ced4da;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-editar:hover {
+  background-color: #343a40;
+  color: #fff;
+  border-color: #343a40;
+}
+
+/* Painel de Edição */
+.painel-edicao {
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.edicao-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.edicao-topo h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.edicao-topo h3 span {
+  color: #007bff;
+}
+
+.id-badge {
+  background: #e7f1ff;
+  color: #0056b3;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.ingredientes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.ingrediente-card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.ingrediente-nome {
+  font-size: 14px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.controle-qtd {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.controle-qtd button {
+  width: 28px;
+  height: 28px;
+  background: #e2e6ea;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.controle-qtd button:hover {
+  background: #cbd3da;
+}
+
+.controle-qtd input {
+  width: 45px;
+  height: 28px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  outline: none;
+}
+
+.botoes-acao {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+}
+
+.btn-cancelar {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-cancelar:hover {
+  background: #5a6268;
+}
+
+.btn-atualizar {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-atualizar:hover {
+  background: #218838;
+}
