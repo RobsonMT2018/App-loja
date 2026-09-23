@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
+          <Route path="/" element={<LoginForm />} />
           <Route path="/login" element={<LoginForm />} />  
           <Route path="/admin" element={<Dashboard />} />
           <Route path="/formproduto" element={<AddProdutoDB />} />
