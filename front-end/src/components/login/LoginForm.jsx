@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './LoginForm.css'; 
 import iconLogin from '../login/assets/logo.png'; 
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from '../../api';
 
 function LoginForm() {
   const [email, setEmail] = useState('');
@@ -15,7 +16,7 @@ function LoginForm() {
 
     try {
       // ✅ Agora utiliza os valores do estado (o que o usuário digitou)
-      const response = await fetch('http://localhost:3000/login', {
+      const response = await fetch(`${API_URL}/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
