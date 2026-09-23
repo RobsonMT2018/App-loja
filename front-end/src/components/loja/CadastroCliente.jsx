@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Importado para navegação
 import './CadastroCliente.css';
-import { API_URL } from '../../api';
 
-const API_CLIENTES = `${API_URL}/clientes`;
+const API_CLIENTES = 'http://localhost:3000/clientes';
 
 const CadastroCliente = () => {
   const [formData, setFormData] = useState({

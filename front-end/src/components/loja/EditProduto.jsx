@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./EditProduto.css";
-import { API_URL } from "../../api";
 
 function ProductEditForm({ product, onSave, onCancel }) {
   const [formData, setFormData] = useState({
@@ -37,7 +36,7 @@ function ProductEditForm({ product, onSave, onCancel }) {
   const handleUpdate = async (productData) => {
     try {
       const response = await fetch(
-        `${API_URL}/estoque/${productData.id}`,
+        `http://localhost:3000/estoque/${productData.id}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },

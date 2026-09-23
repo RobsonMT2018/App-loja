@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './AddProdutoDB.css'; 
-import { API_URL as BACKEND_URL } from '../../api';
 
 // Apontando para a nova rota unificada de insumos da lanchonete
-const API_URL = `${BACKEND_URL}/estoque`;
-const ADD_URL = `${BACKEND_URL}/formproduto`;
+const API_URL = 'http://localhost:3000/estoque';
+const ADD_URL = 'http://localhost:3000/formproduto';
 
 function AddProdutoDB() {
   const [editingProduct, setEditingProduct] = useState(null); 

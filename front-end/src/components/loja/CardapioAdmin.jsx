@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./CardapioAdmin.css";
-import { API_URL } from "../../api";
 
 export default function CardapioAdmin() {
   const navigate = useNavigate();
@@ -21,11 +20,11 @@ export default function CardapioAdmin() {
 
   const carregarDados = async () => {
     try {
-      const resLanches = await fetch(`${API_URL}/lanches`);
+      const resLanches = await fetch("http://localhost:3000/lanches");
       const dataLanches = await resLanches.json();
       setLanches(dataLanches);
 
-      const resEstoque = await fetch(`${API_URL}/estoque`);
+      const resEstoque = await fetch("http://localhost:3000/estoque");
       const dataEstoque = await resEstoque.json();
       setEstoque(dataEstoque);
     } catch (error) {
@@ -88,7 +87,7 @@ export default function CardapioAdmin() {
       };
 
       const res = await fetch(
-        `${API_URL}/lanches/${lancheEditando.id}`,
+        `http://localhost:3000/lanches/${lancheEditando.id}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },

@@ -17,9 +17,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <Routes>
-          <Route path="/" element={<LoginForm />} />
           <Route path="/login" element={<LoginForm />} />  
           <Route path="/admin" element={<Dashboard />} />
           <Route path="/formproduto" element={<AddProdutoDB />} />

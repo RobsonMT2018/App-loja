@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react'; 
 import './HistoricoVendas.css';
-import { API_URL as BACKEND_URL } from '../../api';
 
-const API_URL = `${BACKEND_URL}/pedidos`;
+const API_URL = 'http://localhost:3000/pedidos';
 
 function HistoricoVendas() {
   const navigate = useNavigate();

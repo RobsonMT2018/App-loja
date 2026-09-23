@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Vendas.css";
 import { useNavigate } from "react-router-dom";
-import { API_URL } from "../../api";
 
 const Vendas = () => {
   const [produtos, setProdutos] = useState([]);
@@ -24,12 +23,12 @@ const Vendas = () => {
   const categorias = ["Lanches", "Combos", "Acompanhamentos", "Bebidas"];
 
   useEffect(() => {
-    fetch(`${API_URL}/lanches`)
+    fetch("http://localhost:3000/lanches")
       .then((res) => res.json())
       .then((data) => setProdutos(data))
       .catch((err) => console.error("Erro ao carregar produtos:", err));
 
-    fetch(`${API_URL}/clientes`)
+    fetch("http://localhost:3000/clientes")
       .then((res) => res.json())
       .then((data) => setClientes(data))
       .catch((err) => console.error("Erro ao carregar clientes:", err));
@@ -105,7 +104,7 @@ const Vendas = () => {
     };
 
     try {
-      const response = await fetch(`${API_URL}/pedidos`, {
+      const response = await fetch("http://localhost:3000/pedidos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
