@@ -2,7 +2,7 @@
 
 Aplicação completa para gerenciar uma loja de copos personalizados com área de administração, vitrine para clientes e aplicativo mobile (Expo).
 
-## LINK : https://robsonmt2018.github.io/App-loja/
+### LINK : https://robsonmt2018.github.io/App-loja/
 ## 📦 Funcionalidades
 
 ### Área de Administração
