@@ -222,3 +222,16 @@
     text-align: center;
   }
 }
+
+@media (max-width: 640px) {
+  .cadastro-cliente-container {
+    padding: 16px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .cadastro-cliente-container h2 {
+    font-size: 21px;
+  }
+}

@@ -181,3 +181,37 @@
   margin-top: 40px;
   font-size: 1rem;
 }
+
+@media (max-width: 640px) {
+  .historico-container {
+    padding: 16px;
+  }
+
+  .historico-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .pesquisa-container,
+  .filtro-data-grupo {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .pesquisa-container input[type="text"] {
+    box-sizing: border-box;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .filtro-data-grupo input[type="date"] {
+    width: 100%;
+  }
+
+  .historico-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tabela-itens-pedido {
+    font-size: 0.78rem;
+  }
+}

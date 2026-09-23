@@ -135,3 +135,38 @@
   color: #dc2626;
   font-weight: 700;
 }
+
+@media (max-width: 640px) {
+  .produtos-page-container {
+    padding: 16px;
+  }
+
+  .produtos-header,
+  .search-container {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .produtos-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .header-actions {
+    flex-direction: column;
+  }
+
+  .btn-action,
+  .btn-pesquisar {
+    min-height: 42px;
+    width: 100%;
+  }
+
+  .table-scroll-container {
+    padding: 12px;
+  }
+
+  .products-table {
+    min-width: 620px;
+  }
+}

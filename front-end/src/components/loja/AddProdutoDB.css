@@ -278,3 +278,39 @@
 .historico-table tr:hover {
   background-color: #f8fafc;
 }
+
+@media (max-width: 640px) {
+  .add-produto-container {
+    padding: 16px;
+  }
+
+  .page-header {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-button,
+  .form-actions button {
+    width: 100%;
+  }
+
+  .form-card,
+  .quick-list-container,
+  .historico-container {
+    padding: 16px;
+  }
+
+  .quick-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .quick-table,
+  .historico-table {
+    min-width: 560px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+}
