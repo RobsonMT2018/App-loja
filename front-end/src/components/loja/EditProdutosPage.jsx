@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Search, Edit2, Trash2 } from "lucide-react"; // Adicionando ícones para melhor UX
 import "./EditProduto.css";
 import ProductEditForm from "./EditProduto";
+import { API_URL as BACKEND_URL } from "../../api";
 
-const API_URL = "http://localhost:3000/estoque";
+const API_URL = `${BACKEND_URL}/estoque`;
 
 function EditProdutosPage() {
   const [products, setProducts] = useState([]);

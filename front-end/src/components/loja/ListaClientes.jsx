@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { User, Mail, Phone, FileText, ArrowLeft, RefreshCw } from 'lucide-react';
 import './ListaClientes.css';
+import { API_URL as BACKEND_URL } from '../../api';
 
-const API_URL = 'http://localhost:3000/clientes';
+const API_URL = `${BACKEND_URL}/clientes`;
 
 const ListaClientes = () => {
   const [clientes, setClientes] = useState([]);
@@ -63,7 +64,7 @@ const ListaClientes = () => {
 const handleEditarSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await fetch(`http://localhost:3000/clientes/${editingCliente.id}`, {
+    const response = await fetch(`${API_URL}/${editingCliente.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
