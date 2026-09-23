@@ -113,16 +113,25 @@ VITE_FIREBASE_PROJECT_ID=seu_project_id
 VITE_FIREBASE_STORAGE_BUCKET=seu_storage_bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=seu_messaging_id
 VITE_FIREBASE_APP_ID=seu_app_id
+
+# API local durante o desenvolvimento
+VITE_API_URL=http://localhost:3000
 ```
+
+Para publicar o front-end, defina `VITE_API_URL` com uma URL HTTPS acessível
+publicamente. O valor é incorporado no build pelo Vite.
 
 ### 3️⃣ Execução Local
 
 **Terminal 1 - Backend:**
 ```bash
 cd backend
-npm run dev
+npm start
 # Servidor rodando em http://localhost:3000
 ```
+
+`npm run dev` também pode ser usado quando o executável do `nodemon` estiver
+disponível.
 
 **Terminal 2 - Frontend:**
 ```bash
@@ -150,6 +159,7 @@ npm start            # Inicia o servidor normalmente
 npm run dev          # Inicia servidor de desenvolvimento Vite
 npm run build        # Build para produção
 npm run preview      # Visualiza build de produção
+npm run deploy       # Gera o build e publica na branch gh-pages
 ```
 
 ### Mobile
@@ -159,6 +169,24 @@ npm run android      # Emulador Android
 npm run ios          # Emulador iOS
 npm run web          # Versão web
 ```
+
+## 🌍 Publicação no GitHub Pages
+
+O front-end publicado usa `front-end/src/App.jsx` e está disponível em:
+
+<https://robsonmt2018.github.io/App-loja/>
+
+Para publicar uma nova versão:
+
+```bash
+cd front-end
+VITE_API_URL=https://sua-api-publica.example.com npm run deploy
+```
+
+O comando executa o build e envia `dist/` para a branch `gh-pages`. A API não
+pode usar `localhost` em produção: esse endereço aponta para o computador do
+visitante. Durante o desenvolvimento local, mantenha `VITE_API_URL` como
+`http://localhost:3000`.
 
 ## 🔐 Credenciais Padrão
 
@@ -206,7 +234,13 @@ Tentativa de acesso: POST /login
 
 ### "Não consigo acessar o backend do frontend"
 - Verifique se o backend está rodando em `http://localhost:3000`
+- Confirme se `front-end/.env.local` contém `VITE_API_URL=http://localhost:3000`
 - Confira o CORS configurado em `backend/server.js`
+
+### "O login público informa falha de conexão"
+- Hospede o backend em uma URL HTTPS pública
+- Gere o deploy novamente informando `VITE_API_URL` com essa URL
+- Não use `localhost` no build publicado
 
 ### "Firebase não funciona"
 - Verifique as credenciais no `.env.local`

@@ -59,8 +59,9 @@ Aplicação React web usando Vite para build rápido.
 ```
 front-end/
 ├── src/
-│   ├── App.jsx                   # Componente raiz com Router
+│   ├── App.jsx                   # Componente raiz com Router e login inicial
 │   ├── main.jsx                  # Entry point
+│   ├── api.js                    # URL da API via VITE_API_URL
 │   ├── App.css                   # Estilos globais
 │   ├── firebase.js               # Configuração Firebase
 │   ├── components/
@@ -87,7 +88,7 @@ front-end/
 ├── .env.local                    # Variáveis de ambiente (não versionado)
 ├── index.html                    # HTML principal
 ├── vite.config.js               # Configuração Vite
-├── package.json                 # Dependências React
+├── package.json                 # Dependências React e scripts de deploy
 └── node_modules/                # Dependências instaladas
 ```
 
@@ -110,9 +111,21 @@ front-end/
 /cadastro-cliente      - Cadastrar cliente
 /clientes              - Listar clientes
 /vendas                - Página de vendas
-/reembolso             - Processamento de reembolsos
 /historico-vendas      - Histórico de vendas
+/cardapio              - Gestão do cardápio
 ```
+
+### Deploy do Frontend
+
+O Vite usa `/App-loja/` como base para o GitHub Pages. O script `deploy`
+executa o build e publica `front-end/dist` na branch `gh-pages`:
+
+```bash
+cd front-end
+VITE_API_URL=https://sua-api-publica.example.com npm run deploy
+```
+
+Sem `VITE_API_URL`, o desenvolvimento local usa `http://localhost:3000`.
 
 ## 📱 Mobile (`/app-loja-mobile`)
 

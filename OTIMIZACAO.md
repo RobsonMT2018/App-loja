@@ -1,5 +1,24 @@
 # 🎯 Resumo da Otimização do Projeto App-Loja
 
+> Atualização de execução e publicação: 23/09/2026
+
+O front-end web está completo em `front-end/src`, com `App.jsx` como
+componente raiz, login funcional e integração com a API por meio de
+`VITE_API_URL`. O build é publicado no GitHub Pages usando `gh-pages`.
+
+```bash
+# Desenvolvimento local
+node backend/server.js
+cd front-end && npm run dev
+
+# Publicação
+cd front-end
+VITE_API_URL=https://sua-api-publica.example.com npm run deploy
+```
+
+O backend precisa estar hospedado publicamente para que o login funcione no
+GitHub Pages. O fallback local continua sendo `http://localhost:3000`.
+
 **Data**: 16/08/2026  
 **Status**: ✅ Concluído  
 **Versão**: 1.0.0 (Otimizada)
