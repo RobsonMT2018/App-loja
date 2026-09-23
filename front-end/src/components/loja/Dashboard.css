@@ -4,6 +4,7 @@
 .dashboard-container {
   display: flex;
   min-height: 100vh;
+  overflow-x: hidden;
   background-color: #f8fafc; /* Fundo cinza-azulado bem leve e limpo */
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   color: #334155;
@@ -24,6 +25,7 @@
 /* Área de Conteúdo Principal */
 .main-content {
   flex-grow: 1;
+  min-width: 0;
   padding: 32px;
   max-width: 1400px;
   margin: 0 auto;
@@ -327,14 +329,17 @@
   .sidebar {
     position: fixed;
     top: 0;
-    left: -280px;
+    left: 0;
+    width: min(280px, 86vw);
     height: 100vh;
-    box-shadow: 25px 0 50px -12px rgba(0, 0, 0, 0.2.5);
-    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    box-shadow: 25px 0 50px -12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .sidebar.open {
-    left: 0;
+    transform: translateX(0);
   }
 
   .close-btn {
@@ -342,11 +347,56 @@
   }
 
   .main-content {
-    padding: 20px;
+    padding: 16px;
+  }
+
+  .main-header {
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
   }
 
   .main-header h2 {
+    flex: 1 1 180px;
     font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .header-right-date {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 10px;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .card-kpi {
+    min-width: 0;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .kpi-info {
+    min-width: 0;
+  }
+
+  .kpi-info span {
+    display: block;
+    line-height: 1.3;
+  }
+
+  .charts-grid {
+    gap: 16px;
+  }
+
+  .chart-card {
+    min-width: 0;
+    padding: 16px;
+    overflow: hidden;
   }
 }
 

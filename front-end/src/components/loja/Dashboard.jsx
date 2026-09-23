@@ -197,7 +197,7 @@ function Dashboard() {
     <Menu size={24} />
   </button>
           <h2>Análise de Desempenho Comercial</h2>
-          <span>Operação Online: {new Date().toLocaleDateString("pt-BR")}</span>
+          <span className="header-right-date">Operação Online: {new Date().toLocaleDateString("pt-BR")}</span>
         </header>
 
         <div className="metrics-grid">
