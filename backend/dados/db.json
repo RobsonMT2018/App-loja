@@ -1,0 +1,2500 @@
+{
+  "clientes": [
+    {
+      "id": "1779319565238",
+      "nome": "Robson M Tomosique",
+      "email": "robsontomaciel@gmail.com",
+      "cpf": "404.167.498-01",
+      "telefone": "15998883176",
+      "dataNascimento": "1990-12-27",
+      "endereco": {
+        "rua": "Dr Jose Stilitano",
+        "numero": "298",
+        "bairro": "Jardim Simus",
+        "cidade": "Sorocaba",
+        "estado": "SP",
+        "cep": "18053-011"
+      }
+    },
+    {
+      "id": "1779319565239",
+      "nome": "Carlos Eduardo Santos",
+      "email": "cadu.santos@gmail.com",
+      "cpf": "222.333.444-02",
+      "telefone": "15997771122",
+      "dataNascimento": "1995-05-15",
+      "endereco": {
+        "rua": "Av. Afonso Vergueiro",
+        "numero": "1500",
+        "bairro": "Centro",
+        "cidade": "Sorocaba",
+        "estado": "SP",
+        "cep": "18040-000"
+      }
+    },
+    {
+      "id": "1780703272627",
+      "nome": "Francine M Tomosique",
+      "email": "frango@gmail.com",
+      "cpf": "151551515",
+      "telefone": "15 98989989",
+      "dataNascimento": "1191-11-25",
+      "endereco": {
+        "rua": "rua 10",
+        "numero": "100",
+        "bairro": "",
+        "cidade": "Sorocaba",
+        "estado": "SP",
+        "cep": "18053-011"
+      }
+    }
+  ],
+  "estoque": [
+    {
+      "id": "1",
+      "nome": "Hambúrguer",
+      "quantidade": 66,
+      "valor": 5,
+      "data_venci": "2026-10-10",
+      "data_fabrica": "2025-05-05",
+      "descricao": "Aurora Alimentos"
+    },
+    {
+      "id": "2",
+      "nome": "Batata Frita",
+      "quantidade": 50,
+      "valor": 18.5,
+      "data_venci": "2026-10-30",
+      "data_fabrica": "2025-05-01",
+      "descricao": "Heinz"
+    },
+    {
+      "id": "3",
+      "nome": "Coca-Cola Lata 350ml",
+      "quantidade": 114,
+      "valor": 5.5,
+      "data_venci": "2026-10-25",
+      "data_fabrica": "2026-05-25",
+      "descricao": "Coca-COla"
+    },
+    {
+      "id": "4",
+      "nome": "Pão de Hambúrguer",
+      "quantidade": 54,
+      "valor": 2,
+      "data_venci": "2026-10-20",
+      "data_fabrica": "2025-05-08",
+      "descricao": "Heinz"
+    },
+    {
+      "id": "5",
+      "nome": "Queijo Prato",
+      "quantidade": 20,
+      "valor": 1,
+      "data_venci": "2027-06-05",
+      "data_fabrica": "2026-05-05",
+      "descricao": "Renata"
+    },
+    {
+      "id": "6",
+      "nome": "Pão de Cachorrao",
+      "valor": 1.5,
+      "descricao": "Panco",
+      "data_fabrica": "18/08/2026",
+      "data_venci": "18/09/2027",
+      "quantidade": 50
+    }
+  ],
+  "lanches": [
+    {
+      "id": "1",
+      "nome": "Lanche X-Burguer Simples",
+      "valor": 10,
+      "categoria": "Lanches",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+      "ingredientes": [
+        {
+          "id": "1",
+          "qtd": 2
+        },
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "6",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Lanche X-Burguer Duplo",
+      "valor": 20,
+      "categoria": "Lanches",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQfKXxPFG-DUkBcajBnai2TFanEHw8jhFfpNUbfEsXe-Pfar8t0b9588M&s=10",
+      "ingredientes": [
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "1",
+          "qtd": 2
+        },
+        {
+          "id": "5",
+          "qtd": 1
+        },
+        {
+          "id": "6",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Lanche X-Salada",
+      "valor": 15,
+      "categoria": "Lanches",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBx9HPYxZp0akr4dT-DUCaENBJK55NNp_AeYhOdrEp7YWBZrcYBKUusuA&s=10",
+      "ingredientes": [
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "1",
+          "qtd": 1
+        },
+        {
+          "id": "6",
+          "qtd": 1
+        },
+        {
+          "id": "8",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Lanche X-Bacon",
+      "valor": 18,
+      "categoria": "Lanches",
+      "urlImagem": "https://alloydeliveryimages.s3.sa-east-1.amazonaws.com/item_images/7290/64ceb8f870980813qe.webp",
+      "ingredientes": [
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "1",
+          "qtd": 1
+        },
+        {
+          "id": "6",
+          "qtd": 1
+        },
+        {
+          "id": "9",
+          "qtd": 3
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "Lanche X-Frango Especial",
+      "valor": 16.5,
+      "categoria": "Lanches",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0ElJa1q71OAsVQs1pVVL2xb6UWu7jVQ1mL53IjEyaPyG-DXmF6EFGx_q&s=10",
+      "ingredientes": [
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "10",
+          "qtd": 1
+        },
+        {
+          "id": "6",
+          "qtd": 1
+        },
+        {
+          "id": "8",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nome": "Lanche Cheddar Bacon",
+      "valor": 22,
+      "categoria": "Lanches",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cMEEtIYms7CAOv_lotz1l6a25aGtNgNT2-5PCBiBaJOsR5W-b1XvUSI&s=10",
+      "ingredientes": [
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "1",
+          "qtd": 1
+        },
+        {
+          "id": "11",
+          "qtd": 2
+        },
+        {
+          "id": "9",
+          "qtd": 3
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "nome": "Combo X-Burguer Duplo Especial",
+      "valor": 24.4,
+      "categoria": "Combos",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yB0QIz7CCPnrAdHE71oAkYkm8Ok7I6aUtHLeB-bjHe_PJBXB70R_mjc&s=10",
+      "ingredientes": [
+        {
+          "id": "4",
+          "qtd": 1
+        },
+        {
+          "id": "1",
+          "qtd": 2
+        },
+        {
+          "id": "5",
+          "qtd": 1
+        },
+        {
+          "id": "6",
+          "qtd": 1
+        },
+        {
+          "id": "2",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "nome": "Combo X-Salada + Refri",
+      "valor": 22,
+      "categoria": "Combos",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhy3VYwvKcDXimAJdf6-4i1-I-EZqXXQHLGb6Aj0T51A&s=10",
+      "ingredientes": [
+        {
+          "id": "3",
+          "qtd": 1
+        },
+        {
+          "id": "30",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "nome": "Combo Família X-Burguer",
+      "valor": 55,
+      "categoria": "Combos",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWPoJMdAHWZgnwLKNK4kE8DcTZ0U4BhNjt0tIz-aD3bHhUsAEwKLzYxUw&s=10",
+      "ingredientes": [
+        {
+          "id": "1",
+          "qtd": 3
+        },
+        {
+          "id": "40",
+          "qtd": 2
+        },
+        {
+          "id": "30",
+          "qtd": 3
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "nome": "Combo Cheddar Lovers",
+      "valor": 28,
+      "categoria": "Combos",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFzKTF_EX7LA8LWrKe9aV0sQBBumuFeX1LciMjI0ZkQ&s",
+      "ingredientes": [
+        {
+          "id": "6",
+          "qtd": 1
+        },
+        {
+          "id": "40",
+          "qtd": 1
+        },
+        {
+          "id": "30",
+          "qtd": 1
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "nome": "Bebida Coca-Cola Lata 350ml",
+      "valor": 5.5,
+      "categoria": "Bebidas",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQsM206aXvp0k96FvI4Qdcp8mL_eOvbPjVw_pEBs7diw&s=10",
+      "descricao": "Refrigerante Coca-Cola em lata de 350ml"
+    },
+    {
+      "id": "31",
+      "nome": "Suco de Laranja 300ml",
+      "valor": 8,
+      "categoria": "Bebidas",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOUvUTfyggGQxhpd-eWNqtJZjN-7X8Zem7792Kcd1RhKAGE-NqpFJcQVZ6&s=10",
+      "descricao": "Suco natural de laranja, copo de 300ml"
+    },
+    {
+      "id": "32",
+      "nome": "Água Mineral com Gás",
+      "valor": 4,
+      "categoria": "Bebidas",
+      "urlImagem": "https://d3gdr9n5lqb5z7.cloudfront.net/fotos/983651-17-02-2023-17-00-15-288.jpg",
+      "descricao": "Água com gás, 500ml"
+    },
+    {
+      "id": "33",
+      "nome": "Suco de Uva Integral 300ml",
+      "valor": 9,
+      "categoria": "Bebidas",
+      "urlImagem": "https://d21wiczbqxib04.cloudfront.net/qUY-lUKAiLmhJY7MCB8ks6Mif28=/1600x0/smart/https://produtos-osuper.s3.sa-east-1.amazonaws.com/7898953148718.jpg",
+      "descricao": "Suco de uva integral gelado"
+    },
+    {
+      "id": "34",
+      "nome": "Cerveja Pilsen 350ml",
+      "valor": 10,
+      "categoria": "Bebidas",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEXCcar88ko__lz2kY3WxxMOB4zIeQhKN1_LQ4HExfPVLnl50UH_FfbaU&s=10",
+      "descricao": "Cerveja gelada, venda proibida para menores de 18 anos"
+    },
+    {
+      "id": "40",
+      "nome": "Batata Frita Suprema",
+      "valor": 18.5,
+      "categoria": "Acompanhamentos",
+      "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+      "ingredientes": [
+        {
+          "id": "2",
+          "qtd": 1
+        }
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "VEN-1779586270125",
+      "itens": [
+        {
+          "id": "1",
+          "nome": "X-Burguer Duplo Especial",
+          "valor": 24.4,
+          "descricao": "Aurora Alimentos",
+          "quantidade": 45,
+          "data_fabrica": "2026-05-01",
+          "data_venci": "2026-06-01",
+          "idPedido": 1779586268692
+        }
+      ],
+      "total": 24.4,
+      "data": "2026-05-24T01:31:10.116Z"
+    },
+    {
+      "id": "VEN-1779589174768",
+      "itens": [
+        {
+          "id": "201",
+          "nome": "Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "ingredientes": [
+            {
+              "id": "3",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779589167133
+        },
+        {
+          "id": "201",
+          "nome": "Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "ingredientes": [
+            {
+              "id": "3",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779589171349
+        }
+      ],
+      "nomeCliente": "",
+      "endereco": "",
+      "formaPagamento": "Dinheiro",
+      "total": 11,
+      "data": "2026-05-24T02:19:34.768Z"
+    },
+    {
+      "id": "VEN-1779589188380",
+      "itens": [
+        {
+          "id": "201",
+          "nome": "Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "ingredientes": [
+            {
+              "id": "3",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779589186725
+        }
+      ],
+      "nomeCliente": "Robson M Tomosique",
+      "endereco": "Dr Jose Stilitano, 298 - Jardim Simus",
+      "formaPagamento": "Dinheiro",
+      "total": 5.5,
+      "data": "2026-05-24T02:19:48.380Z"
+    },
+    {
+      "id": "VEN-1779589345143",
+      "itens": [
+        {
+          "id": "201",
+          "nome": "Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "ingredientes": [
+            {
+              "id": "3",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779589344398
+        }
+      ],
+      "nomeCliente": "Carlos Eduardo Santos",
+      "endereco": "Av. Afonso Vergueiro, 1500 - Centro",
+      "formaPagamento": "Dinheiro",
+      "total": 5.5,
+      "data": "2026-05-24T02:22:25.143Z"
+    },
+    {
+      "id": "VEN-1779590116650",
+      "itens": [
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "idPedido": 1779590109474
+        },
+        {
+          "id": "102",
+          "nome": "X-Burguer Duplo",
+          "valor": 20,
+          "descricao": "Dois hambúrgueres com queijo, alface e molho especial",
+          "idPedido": 1779590111353
+        },
+        {
+          "id": "203",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 35,
+          "descricao": "X-Burguer Duplo Especial + Batata Frita Suprema + Coca-Cola Lata 350ml",
+          "idPedido": 1779590113658
+        },
+        {
+          "id": "203",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 35,
+          "descricao": "X-Burguer Duplo Especial + Batata Frita Suprema + Coca-Cola Lata 350ml",
+          "idPedido": 1779590114307
+        }
+      ],
+      "nomeCliente": "Robson M Tomosique",
+      "endereco": "Dr Jose Stilitano, 298 - Jardim Simus",
+      "formaPagamento": "Dinheiro",
+      "total": 95.5,
+      "data": "2026-05-24T02:35:16.650Z"
+    },
+    {
+      "id": "VEN-1779641270917",
+      "itens": [
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641262041
+        },
+        {
+          "id": "203",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 35,
+          "categoria": "Combos",
+          "descricao": "X-Burguer Duplo Especial + Batata Frita Suprema + Coca-Cola Lata 350ml",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "2",
+              "qtd": 1
+            },
+            {
+              "id": "3",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641264225
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1779641266121
+        }
+      ],
+      "nomeCliente": "Robson M Tomosique",
+      "endereco": "Dr Jose Stilitano, 298 - Jardim Simus",
+      "formaPagamento": "Dinheiro",
+      "total": 55.5,
+      "data": "2026-05-24T16:47:50.917Z"
+    },
+    {
+      "id": "VEN-1779641315032",
+      "itens": [
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641309241
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641309585
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641309921
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641310232
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641310521
+        }
+      ],
+      "nomeCliente": "Robson M Tomosique",
+      "endereco": "Dr Jose Stilitano, 298 - Jardim Simus",
+      "formaPagamento": "Dinheiro",
+      "total": 92.5,
+      "data": "2026-05-24T16:48:35.032Z"
+    },
+    {
+      "id": "VEN-1779641340624",
+      "itens": [
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641337944
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641338272
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641338569
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641338945
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641339465
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1779641339760
+        }
+      ],
+      "nomeCliente": "",
+      "endereco": "",
+      "formaPagamento": "Dinheiro",
+      "total": 111,
+      "data": "2026-05-24T16:49:00.624Z"
+    },
+    {
+      "id": "VEN-1780703052659",
+      "produtos": [
+        {
+          "id": "203",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 35,
+          "categoria": "Combos",
+          "descricao": "X-Burguer Duplo Especial + Batata Frita Suprema + Coca-Cola Lata 350ml",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "2",
+              "qtd": 1
+            },
+            {
+              "id": "3",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780703048723
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780703050619
+        }
+      ],
+      "clienteNome": "Robson M Tomosique",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 40.5,
+      "dataHora": "2026-06-05T23:44:12.659Z"
+    },
+    {
+      "id": "VEN-1780703311556",
+      "produtos": [
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780703301411
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780703303738
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780703306851
+        },
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780703308563
+        }
+      ],
+      "clienteNome": "Francine M Tomosique",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 55.5,
+      "dataHora": "2026-06-05T23:48:31.556Z"
+    },
+    {
+      "id": "VEN-1780705816532",
+      "produtos": [
+        {
+          "id": "103",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 24.4,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780705814395
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780705815811
+        }
+      ],
+      "clienteNome": "",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 29.9,
+      "dataHora": "2026-06-06T00:30:16.532Z"
+    },
+    {
+      "id": "VEN-1780706761438",
+      "produtos": [
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780706759931
+        }
+      ],
+      "clienteNome": "Carlos Eduardo Santos",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 15,
+      "dataHora": "2026-06-06T00:46:01.438Z"
+    },
+    {
+      "id": "VEN-1780708213308",
+      "produtos": [
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780708211955
+        }
+      ],
+      "clienteNome": "Robson M Tomosique",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 20,
+      "dataHora": "2026-06-06T01:10:13.308Z"
+    },
+    {
+      "id": "VEN-1780708389275",
+      "produtos": [
+        {
+          "id": "103",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 24.4,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780708388195
+        }
+      ],
+      "clienteNome": "Francine M Tomosique",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 24.4,
+      "dataHora": "2026-06-06T01:13:09.275Z"
+    },
+    {
+      "id": "VEN-1780709371543",
+      "produtos": [
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709363043
+        },
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709363220
+        },
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709363387
+        },
+        {
+          "id": "101",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 15,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709363540
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709364243
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709364411
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709364547
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709364691
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709364843
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709365004
+        },
+        {
+          "id": "102",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709365155
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709365747
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709365907
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709366051
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709366212
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709366355
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709366515
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709366667
+        },
+        {
+          "id": "202",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "idPedido": 1780709366835
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780709369603
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780709369763
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780709369924
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780709370076
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780709370244
+        },
+        {
+          "id": "301",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "categoria": "Bebidas",
+          "idPedido": 1780709370388
+        }
+      ],
+      "clienteNome": "Robson M Tomosique",
+      "formaPagamento": "Dinheiro",
+      "valorTotal": 381,
+      "dataHora": "2026-06-06T01:29:31.543Z"
+    },
+    {
+      "id": "1781973779236",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Hambúrguer",
+          "quantidade": 71,
+          "valor": 5,
+          "data_venci": "2026-06-10",
+          "data_fabrica": "2025-05-05",
+          "descricao": "Aurora Alimentos"
+        },
+        {
+          "id": "2",
+          "nome": "Batata Frita",
+          "quantidade": 50,
+          "valor": 18.5,
+          "data_venci": "2026-06-30",
+          "data_fabrica": "2025-05-01",
+          "descricao": "Heinz"
+        }
+      ],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-20T16:42:59.237Z"
+    },
+    {
+      "id": "1782004698852",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Hambúrguer",
+          "quantidade": 71,
+          "valor": 5,
+          "data_venci": "2026-06-10",
+          "data_fabrica": "2025-05-05",
+          "descricao": "Aurora Alimentos"
+        },
+        {
+          "id": "3",
+          "nome": "Coca-Cola Lata 350ml",
+          "quantidade": 114,
+          "valor": 5.5,
+          "data_venci": "2026-06-25",
+          "data_fabrica": "2026-05-25",
+          "descricao": "Coca-COla"
+        },
+        {
+          "id": "5",
+          "nome": "Queijo Prato",
+          "quantidade": 20,
+          "valor": 35,
+          "data_venci": "2027-06-05",
+          "data_fabrica": "2026-05-05",
+          "descricao": ""
+        }
+      ],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-21T01:18:18.852Z"
+    },
+    {
+      "id": "1782004862572",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Hambúrguer",
+          "quantidade": 71,
+          "valor": 5,
+          "data_venci": "2026-06-10",
+          "data_fabrica": "2025-05-05",
+          "descricao": "Aurora Alimentos"
+        },
+        {
+          "id": "2",
+          "nome": "Batata Frita",
+          "quantidade": 50,
+          "valor": 18.5,
+          "data_venci": "2026-06-30",
+          "data_fabrica": "2025-05-01",
+          "descricao": "Heinz"
+        },
+        {
+          "id": "3",
+          "nome": "Coca-Cola Lata 350ml",
+          "quantidade": 114,
+          "valor": 5.5,
+          "data_venci": "2026-06-25",
+          "data_fabrica": "2026-05-25",
+          "descricao": "Coca-COla"
+        }
+      ],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-21T01:21:02.572Z"
+    },
+    {
+      "id": "1782004869107",
+      "clienteNome": "Carlos Eduardo Santos",
+      "produtos": [
+        {
+          "id": "2",
+          "nome": "Batata Frita",
+          "quantidade": 50,
+          "valor": 18.5,
+          "data_venci": "2026-06-30",
+          "data_fabrica": "2025-05-01",
+          "descricao": "Heinz"
+        },
+        {
+          "id": "3",
+          "nome": "Coca-Cola Lata 350ml",
+          "quantidade": 114,
+          "valor": 5.5,
+          "data_venci": "2026-06-25",
+          "data_fabrica": "2026-05-25",
+          "descricao": "Coca-COla"
+        },
+        {
+          "id": "1",
+          "nome": "Hambúrguer",
+          "quantidade": 71,
+          "valor": 5,
+          "data_venci": "2026-06-10",
+          "data_fabrica": "2025-05-05",
+          "descricao": "Aurora Alimentos"
+        }
+      ],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-21T01:21:09.107Z"
+    },
+    {
+      "id": "1782055893157",
+      "clienteNome": "Carlos Eduardo Santos",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Hambúrguer",
+          "quantidade": 71,
+          "valor": 5,
+          "data_venci": "2026-06-10",
+          "data_fabrica": "2025-05-05",
+          "descricao": "Aurora Alimentos"
+        }
+      ],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-21T15:31:33.157Z"
+    },
+    {
+      "id": "1782173626644",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-23T00:13:46.644Z"
+    },
+    {
+      "id": "1782173874748",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-23T00:17:54.748Z"
+    },
+    {
+      "id": "1782685855371",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-06-28T22:30:55.371Z"
+    },
+    {
+      "id": "1784324674588",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T21:44:34.588Z"
+    },
+    {
+      "id": "1784325150950",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T21:52:30.950Z"
+    },
+    {
+      "id": "1784325413899",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T21:56:53.899Z"
+    },
+    {
+      "id": "1784325451487",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T21:57:31.487Z"
+    },
+    {
+      "id": "1784325507238",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T21:58:27.238Z"
+    },
+    {
+      "id": "1784326025039",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T22:07:05.039Z"
+    },
+    {
+      "id": "1784327955805",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T22:39:15.805Z"
+    },
+    {
+      "id": "1784328265437",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T22:44:25.437Z"
+    },
+    {
+      "id": "1784328301966",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-07-17T22:45:01.966Z"
+    },
+    {
+      "id": "1786400124405",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T22:15:24.405Z"
+    },
+    {
+      "id": "1786400773737",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T22:26:13.737Z"
+    },
+    {
+      "id": "1786401515526",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T22:38:35.526Z"
+    },
+    {
+      "id": "1786401735309",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T22:42:15.309Z"
+    },
+    {
+      "id": "1786402283639",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T22:51:23.639Z"
+    },
+    {
+      "id": "1786402395955",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T22:53:15.955Z"
+    },
+    {
+      "id": "1786402965551",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-10T23:02:45.551Z"
+    },
+    {
+      "id": "1786907746928",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-16T19:15:46.928Z"
+    },
+    {
+      "id": "1786999985959",
+      "clienteNome": "Cliente Anónimo",
+      "produtos": [],
+      "valorTotal": 0,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-17T20:53:05.959Z"
+    },
+    {
+      "id": "1787000183669",
+      "clienteNome": "Francine M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        }
+      ],
+      "valorTotal": 10,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-17T20:56:23.669Z"
+    },
+    {
+      "id": "1787002183416",
+      "clienteNome": "Carlos Eduardo Santos",
+      "produtos": [
+        {
+          "id": "30",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQsM206aXvp0k96FvI4Qdcp8mL_eOvbPjVw_pEBs7diw&s=10",
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "qtd": 1
+        },
+        {
+          "id": "21",
+          "nome": "Combo X-Salada + Refri",
+          "valor": 22,
+          "categoria": "Combos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhy3VYwvKcDXimAJdf6-4i1-I-EZqXXQHLGb6Aj0T51A&s=10",
+          "ingredientes": [
+            {
+              "id": "3",
+              "qtd": 1
+            },
+            {
+              "id": "30",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        },
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 2
+        }
+      ],
+      "valorTotal": 47.5,
+      "formaPagamento": "Pix",
+      "dataHora": "2026-08-17T21:29:43.416Z"
+    },
+    {
+      "id": "1787002359438",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 2
+        },
+        {
+          "id": "2",
+          "nome": "Lanche X-Burguer Duplo",
+          "valor": 20,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQfKXxPFG-DUkBcajBnai2TFanEHw8jhFfpNUbfEsXe-Pfar8t0b9588M&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        },
+        {
+          "id": "4",
+          "nome": "Lanche X-Bacon",
+          "valor": 18,
+          "categoria": "Lanches",
+          "urlImagem": "https://alloydeliveryimages.s3.sa-east-1.amazonaws.com/item_images/7290/64ceb8f870980813qe.webp",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "9",
+              "qtd": 3
+            }
+          ],
+          "qtd": 4
+        },
+        {
+          "id": "40",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 3
+        },
+        {
+          "id": "33",
+          "nome": "Suco de Uva Integral 300ml",
+          "valor": 9,
+          "categoria": "Bebidas",
+          "urlImagem": "https://d21wiczbqxib04.cloudfront.net/qUY-lUKAiLmhJY7MCB8ks6Mif28=/1600x0/smart/https://produtos-osuper.s3.sa-east-1.amazonaws.com/7898953148718.jpg",
+          "descricao": "Suco de uva integral gelado",
+          "qtd": 3
+        },
+        {
+          "id": "31",
+          "nome": "Suco de Laranja 300ml",
+          "valor": 8,
+          "categoria": "Bebidas",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOUvUTfyggGQxhpd-eWNqtJZjN-7X8Zem7792Kcd1RhKAGE-NqpFJcQVZ6&s=10",
+          "descricao": "Suco natural de laranja, copo de 300ml",
+          "qtd": 3
+        }
+      ],
+      "valorTotal": 218.5,
+      "formaPagamento": "Pix",
+      "dataHora": "2026-08-17T21:32:39.438Z"
+    },
+    {
+      "id": "1787002481447",
+      "clienteNome": "Carlos Eduardo Santos",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 3
+        },
+        {
+          "id": "21",
+          "nome": "Combo X-Salada + Refri",
+          "valor": 22,
+          "categoria": "Combos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhy3VYwvKcDXimAJdf6-4i1-I-EZqXXQHLGb6Aj0T51A&s=10",
+          "ingredientes": [
+            {
+              "id": "3",
+              "qtd": 1
+            },
+            {
+              "id": "30",
+              "qtd": 1
+            }
+          ],
+          "qtd": 4
+        },
+        {
+          "id": "40",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 5
+        },
+        {
+          "id": "32",
+          "nome": "Água Mineral com Gás",
+          "valor": 4,
+          "categoria": "Bebidas",
+          "urlImagem": "https://d3gdr9n5lqb5z7.cloudfront.net/fotos/983651-17-02-2023-17-00-15-288.jpg",
+          "descricao": "Água com gás, 500ml",
+          "qtd": 6
+        }
+      ],
+      "valorTotal": 234.5,
+      "formaPagamento": "Cartão de Crédito",
+      "dataHora": "2026-08-17T21:34:41.447Z"
+    },
+    {
+      "id": "1787003202392",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "20",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 24.4,
+          "categoria": "Combos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yB0QIz7CCPnrAdHE71oAkYkm8Ok7I6aUtHLeB-bjHe_PJBXB70R_mjc&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        },
+        {
+          "id": "31",
+          "nome": "Suco de Laranja 300ml",
+          "valor": 8,
+          "categoria": "Bebidas",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOUvUTfyggGQxhpd-eWNqtJZjN-7X8Zem7792Kcd1RhKAGE-NqpFJcQVZ6&s=10",
+          "descricao": "Suco natural de laranja, copo de 300ml",
+          "qtd": 1
+        }
+      ],
+      "valorTotal": 32.4,
+      "formaPagamento": "Cartão de Crédito",
+      "dataHora": "2026-08-17T21:46:42.392Z"
+    },
+    {
+      "id": "1787017140137",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Hambúrguer",
+          "valor": 5,
+          "quantidade": 2
+        }
+      ],
+      "valorTotal": 10,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-18T01:39:00.137Z"
+    },
+    {
+      "id": "1787017446894",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "3",
+          "nome": "Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "quantidade": 1
+        }
+      ],
+      "valorTotal": 5.5,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-18T01:44:06.894Z"
+    },
+    {
+      "id": "1787057091343",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "3",
+          "nome": "Lanche X-Salada",
+          "valor": 15,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBx9HPYxZp0akr4dT-DUCaENBJK55NNp_AeYhOdrEp7YWBZrcYBKUusuA&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "8",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        },
+        {
+          "id": "40",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        }
+      ],
+      "valorTotal": 33.5,
+      "formaPagamento": "Pix",
+      "dataHora": "2026-08-18T12:44:51.343Z"
+    },
+    {
+      "id": "1787057160412",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "3",
+          "nome": "Lanche X-Salada",
+          "valor": 15,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBx9HPYxZp0akr4dT-DUCaENBJK55NNp_AeYhOdrEp7YWBZrcYBKUusuA&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "8",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        }
+      ],
+      "valorTotal": 15,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-18T12:46:00.412Z"
+    },
+    {
+      "id": "1787057877185",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 4
+        },
+        {
+          "id": "40",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 1
+        },
+        {
+          "id": "30",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQsM206aXvp0k96FvI4Qdcp8mL_eOvbPjVw_pEBs7diw&s=10",
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "qtd": 1
+        }
+      ],
+      "valorTotal": 64,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-18T12:57:57.185Z"
+    },
+    {
+      "id": "1787057930484",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 13
+        },
+        {
+          "id": "20",
+          "nome": "Combo X-Burguer Duplo Especial",
+          "valor": 24.4,
+          "categoria": "Combos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yB0QIz7CCPnrAdHE71oAkYkm8Ok7I6aUtHLeB-bjHe_PJBXB70R_mjc&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 2
+            },
+            {
+              "id": "5",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 8
+        }
+      ],
+      "valorTotal": 325.2,
+      "formaPagamento": "Pix",
+      "dataHora": "2026-08-18T12:58:50.484Z"
+    },
+    {
+      "id": "1787058246948",
+      "clienteNome": "Carlos Eduardo Santos",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 3
+        },
+        {
+          "id": "23",
+          "nome": "Combo Cheddar Lovers",
+          "valor": 28,
+          "categoria": "Combos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFzKTF_EX7LA8LWrKe9aV0sQBBumuFeX1LciMjI0ZkQ&s",
+          "ingredientes": [
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "40",
+              "qtd": 1
+            },
+            {
+              "id": "30",
+              "qtd": 1
+            }
+          ],
+          "qtd": 3
+        },
+        {
+          "id": "40",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 5
+        }
+      ],
+      "valorTotal": 206.5,
+      "formaPagamento": "Pix",
+      "dataHora": "2026-08-18T13:04:06.948Z"
+    },
+    {
+      "id": "1787058542510",
+      "clienteNome": "Robson M Tomosique",
+      "produtos": [
+        {
+          "id": "1",
+          "nome": "Lanche X-Burguer Simples",
+          "valor": 10,
+          "categoria": "Lanches",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJhFWKrLo_ldsXzGcMArgO40RJ67PhL1-rLC0KnZ6Yg&s=10",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            }
+          ],
+          "qtd": 5
+        },
+        {
+          "id": "4",
+          "nome": "Lanche X-Bacon",
+          "valor": 18,
+          "categoria": "Lanches",
+          "urlImagem": "https://alloydeliveryimages.s3.sa-east-1.amazonaws.com/item_images/7290/64ceb8f870980813qe.webp",
+          "ingredientes": [
+            {
+              "id": "4",
+              "qtd": 1
+            },
+            {
+              "id": "1",
+              "qtd": 1
+            },
+            {
+              "id": "6",
+              "qtd": 1
+            },
+            {
+              "id": "9",
+              "qtd": 3
+            }
+          ],
+          "qtd": 5
+        },
+        {
+          "id": "40",
+          "nome": "Batata Frita Suprema",
+          "valor": 18.5,
+          "categoria": "Acompanhamentos",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaE16JQOCSTXY1qmzxzexgDA5txvlpdlhOhiehj3ayg&s=10",
+          "ingredientes": [
+            {
+              "id": "2",
+              "qtd": 1
+            }
+          ],
+          "qtd": 6
+        },
+        {
+          "id": "30",
+          "nome": "Bebida Coca-Cola Lata 350ml",
+          "valor": 5.5,
+          "categoria": "Bebidas",
+          "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQsM206aXvp0k96FvI4Qdcp8mL_eOvbPjVw_pEBs7diw&s=10",
+          "descricao": "Refrigerante Coca-Cola em lata de 350ml",
+          "qtd": 6
+        }
+      ],
+      "valorTotal": 284,
+      "formaPagamento": "Dinheiro",
+      "dataHora": "2026-08-18T13:09:02.510Z"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "1",
+      "nome": "Aurora Alimentos",
+      "cnpj": "12.345.678/0001-99",
+      "telefone": "(15) 3221-1111",
+      "email": "vendas@aurora.com.br"
+    },
+    {
+      "id": "2",
+      "nome": "Sadia Distribuição",
+      "cnpj": "98.765.432/0001-88",
+      "telefone": "(15) 3221-2222",
+      "email": "pedidos@sadia.com.br"
+    },
+    {
+      "id": "3",
+      "nome": "Sorocaba Refrescos (Coca-Cola)",
+      "cnpj": "44.555.666/0001-22",
+      "telefone": "(15) 3221-3333",
+      "email": "comercial@cocasorocaba.com.br"
+    }
+  ]
+}
