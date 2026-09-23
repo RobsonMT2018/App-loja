@@ -25,10 +25,11 @@ import {
 } from "recharts";
 import "./Dashboard.css";
 import iconDashboard from "../login/assets/login_user.png";
+import { API_URL } from "../../api";
 
-const API_PEDIDOS = "http://localhost:3000/pedidos";
-const API_CLIENTES = "http://localhost:3000/clientes";
-const API_ESTOQUE = "http://localhost:3000/estoque";
+const API_PEDIDOS = `${API_URL}/pedidos`;
+const API_CLIENTES = `${API_URL}/clientes`;
+const API_ESTOQUE = `${API_URL}/estoque`;
 
 function Dashboard() {
   const [open, setOpen] = useState(false);

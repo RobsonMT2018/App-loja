@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { User, Mail, Phone, FileText, ArrowLeft, RefreshCw } from 'lucide-react';
 import './ListaClientes.css';
+import { API_URL } from '../../api';
 
-const API_URL = 'http://localhost:3000/clientes';
+const CLIENTES_URL = `${API_URL}/clientes`;
 
 const ListaClientes = () => {
   const [clientes, setClientes] = useState([]);
@@ -26,7 +27,7 @@ const ListaClientes = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await fetch(API_URL);
+      const response = await fetch(CLIENTES_URL);
       if (!response.ok) throw new Error(`Erro do Servidor: ${response.status}`);
       const data = await response.json();
       
@@ -63,7 +64,7 @@ const ListaClientes = () => {
 const handleEditarSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await fetch(`http://localhost:3000/clientes/${editingCliente.id}`, {
+    const response = await fetch(`${CLIENTES_URL}/${editingCliente.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
