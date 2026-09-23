@@ -1,9 +1,70 @@
-html {
-  margin: 0;
-  padding: 0;
-  background-color: #DDEBF8  ;
+:root {
+  --font-ui: "Trebuchet MS", "Segoe UI", sans-serif;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-border: #dbe4ef;
+  --color-focus: #2563eb;
 }
-body{
+
+html,
+body,
+#root {
+  min-height: 100%;
   margin: 0;
   padding: 0;
+}
+
+html {
+  background: #eef4fb;
+}
+
+body {
+  color: var(--color-text);
+  font-family: var(--font-ui);
+  line-height: 1.45;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-ui);
+  font-size: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: none !important;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button:not(:disabled):active {
+  transform: translateY(1px) !important;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.28);
+  outline-offset: 2px;
+}
+
+:where(
+  .dashboard-container,
+  .add-produto-container,
+  .cadastro-cliente-container,
+  .cardapio-admin-page,
+  .historico-container,
+  .clientes-container,
+  .produtos-page-container,
+  .pdv-container,
+  .login-adm-container
+) {
+  font-family: var(--font-ui);
 }
