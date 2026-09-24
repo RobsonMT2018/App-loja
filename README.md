@@ -1,3 +1,5 @@
+<img src="https://komarev.com/ghpvc/?username=robsonmt2018&label=PROFILE+VIEWS&color=00D9FF&style=for-the-badge" alt="Profile Views"/><img src="https://img.shields.io/github/followers/robsonmt2018?label=FOLLOWERS&style=for-the-badge&color=0066FF&labelColor=080B18" alt="GitHub Followers"/>
+---
 # App Loja - Sistema Completo de Gerenciamento
 
 Aplicação completa para gerenciar uma loja de copos personalizados com área de administração, vitrine para clientes e aplicativo mobile (Expo).
